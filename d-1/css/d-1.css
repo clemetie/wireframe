@@ -1,0 +1,124 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contanier {
+  width: 100%;
+  height: 950px;
+  background-color: beige;
+}
+/* 전체 */
+.head {
+  width: 200px;
+  height: 850px;
+  background-color: pink;
+}
+/* 헤더 */
+.logo {
+  width: 100%;
+  height: 150px;
+  background-color: lightblue;
+  border-bottom: 1px solid #7a7979;
+
+}
+header ul {
+  margin: 30px 10px;
+  border: 1px solid #fff;
+}
+header li {
+  list-style: none;
+  padding: 1cqw;
+  text-align: center;
+  border-bottom: 1px dotted #fff;
+}
+header li:last-child {
+  border-bottom: none;
+}
+header p {
+  margin: 20px;
+  text-align: center;
+}
+/* 메인 */
+.main {
+  width: calc(100% - 200px);
+  height: 850px;
+  /* background-color: lightskyblue; */
+  border: 1px solid #7a7979;
+ 
+  position: absolute;
+  top: 0;
+  left: 200px;
+}
+.imgslide {
+  width: 100%;
+  height: 400px;
+  border-bottom: 1px solid #7a7979;
+
+  /* background-color: lightsalmon; */
+}
+.miniimg ul{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 300px;
+    padding: 10px;
+  border: 1px solid #7a7979;
+
+    /* background-color: aqua; */
+}
+.miniimg li{
+    list-style: none;
+    height: calc(100% / 3);
+    text-align: center;
+    padding: 18px;
+    padding-top: 30px;
+    border-bottom: 1px dotted ;
+}
+.miniimg li:last-child{
+    border: none;
+}
+.banner {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+}
+.notice {
+  width: 100%;
+  height: 250px;
+  border-top: 1px solid #7a7979;
+
+  /* background-color: lightblue; */
+}
+/* 하단 */
+footer {
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+.btlogo {
+  width: 200px;
+  height: 100%;
+  border: 1px dotted;
+}
+.copy {
+  width: calc(100% - 400px);
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 200px;
+  padding: 10px;
+  text-align: center;
+  border: 1px dotted;
+}
+.sns {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: calc(100% - 200px);
+  padding: 40px;
+  border: 1px dotted;
+}
