@@ -1,0 +1,92 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 전체 */
+.container {
+  width: 1000px;
+  height: 650px;
+  float: left;
+  background-color: beige;
+  overflow: hidden;
+}
+/* 상단 */
+header {
+  width: 200px;
+  height: 650px;
+  float: left;
+  background-color: pink;
+}
+.logo {
+  width: 200px;
+  height: 80px;
+  background-color: azure;
+}
+ul {
+  margin: 20px;
+  margin-top: 60px;
+  border: 1px solid #ffffff;
+}
+.menu li {
+  padding: 16px;
+  list-style: none;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
+.menu li:last-child {
+  border-bottom: none;
+}
+.menu li:hover {
+  background-color: rgb(233, 110, 135);
+}
+.menu li:hover a {
+  color: #fff;
+}
+/* 메인 */
+main {
+  float: right;
+  width: 800px;
+  height: 550px;
+  background-color: lightblue;
+}
+.main-top {
+  width: 100%;
+  height: 350px;
+}
+.main-bt {
+  border: 1px solid #fff;
+}
+.notice,
+.banner,
+.start {
+  width: calc(100% / 3);
+  height: 200px;
+  float: left;
+  padding: 50px 50px;
+  text-align: center;
+  border-right: 1px dotted #fff;
+}
+/* 하단 */
+footer {
+    float: left;
+  width: 800px;
+  height: 100px;
+}
+.btlogo {
+  float: left;
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  border: 1px dotted #fff;
+}
+.btmenu,
+.copy {
+    width: 600px;
+    height: calc(100% / 2);
+    padding: 15px;
+    float: left;
+    text-align: center;
+    border: 1px dotted #ccc;
+}
